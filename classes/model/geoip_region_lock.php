@@ -1,11 +1,11 @@
 <?php
 
-namespace Foolz\Foolfuuka\Plugins\GeoipRegionLock\Model;
+namespace Foolz\FoolFuuka\Plugins\GeoipRegionLock\Model;
 
-use Foolz\Foolframe\Model\Context;
-use Foolz\Foolframe\Model\Model;
-use Foolz\Foolfuuka\Model\Comment;
-use Foolz\Foolfuuka\Model\CommentSendingException;
+use Foolz\FoolFrame\Model\Context;
+use Foolz\FoolFrame\Model\Model;
+use Foolz\FoolFuuka\Model\Comment;
+use Foolz\FoolFuuka\Model\CommentSendingException;
 use Foolz\Inet\Inet;
 use Foolz\Plugin\Result;
 use GeoIp2\Database\Reader;
